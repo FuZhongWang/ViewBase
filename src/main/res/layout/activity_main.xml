@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.example.myviewbase.MyViewGroup
+        android:id="@+id/Mvg"
+        android:background="@color/colorAccent"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="AAAAA"
+            android:gravity="center"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="AAAAA"
+            android:gravity="center"
+            android:background="#ffdd10" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="AAAAA"
+            android:gravity="center"
+            android:background="#00dd10" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="AAAAA"
+            android:gravity="center"
+            android:background="#001010" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="AAAAA"
+
+            android:gravity="center"
+            android:background="@color/colorAccent" />
+
+    </com.example.myviewbase.MyViewGroup>y
+
+
+</LinearLayout>
